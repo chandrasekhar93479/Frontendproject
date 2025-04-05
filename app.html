@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Solana Token DApp</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <h1>Solana Token DApp</h1>
+
+    <button id="connectButton">Connect Wallet</button>
+
+    <div id="walletInfo" class="hidden">
+      <p>Wallet Address: <span id="walletAddress"></span></p>
+      <p>SOL Balance: <span id="solBalance"></span> SOL</p>
+    </div>
+
+    <div id="actions" class="hidden">
+      <h2>Create & Mint Token</h2>
+      <button id="createTokenBtn">Create Token</button>
+      <button id="mintTokenBtn">Mint Token</button>
+    </div>
+
+    <div id="status"></div>
+  </div>
+
+  <script src="https://unpkg.com/@solana/web3.js@latest/lib/index.iife.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

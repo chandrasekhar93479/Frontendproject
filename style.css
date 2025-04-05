@@ -1,0 +1,79 @@
+/* General Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container */
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #1e1e1e;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+/* Headings */
+h1 {
+  color: #00ff9d;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #00c3ff;
+  margin-top: 30px;
+}
+
+/* Buttons */
+button {
+  background-color: #00ff9d;
+  color: #121212;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #00c3ff;
+  color: #fff;
+}
+
+/* Wallet Info */
+#walletInfo p,
+#walletInfo span {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+/* Status Box */
+#status {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #ff6464;
+}
+
+/* Hidden Class */
+.hidden {
+  display: none;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .container {
+    margin: 20px;
+    padding: 20px;
+  }
+
+  button {
+    width: 100%;
+  }
+}
